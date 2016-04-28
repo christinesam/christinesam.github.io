@@ -3,78 +3,112 @@
 	<title>My portfolio</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<!-- THE FOLLOWING LINK REFERENCES A STYLESHEET FROM A FOLDER THAT THIS CURRENT HTML FILE IS IN -->
-	<link rel="stylesheet" href="/stylesheets/styles.css">
+	<link rel="stylesheet" href="styles.css">
 	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-<nav class="navbar navbar-default make_black no_margin">
+
+<nav class="navbar navbar-default make_grey no_margin">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">CSAM</a>
+      <a class="navbar-brand page-scroll" href="#top">WELCOME</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-     
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">ABOUT</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">CONTACT ME</a>
+                    </li>
+                </ul>
+
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
-<div class="container-fluid background_style"> 
+<div class="container-fluid background_style" id="top"> 
 	<div class="col-md-4"></div>
-	<div class="col-md-4"><h1 id="big_name"> THIS IS MY PAGE </h1></div>
+	<div class="col-md-4 header_content">
+	<h1 id="big_name">Hi, my name is Christine.</h1>
+	<h2> . . . . . </h2>
+	<h3>Welcome to my webpage.</h3></div>
 	<div class="col-md-4"></div>
 </div>
-<div class="container-fluid"> 
-	<div class="col-md-12 center_text"><h1>MY PROJECT</h1></div>
+
+
+<div class="container-fluid background_one" id="about"> 
+	<div class="col-md-12 center_text"><h1>About Me</h1>
+	<h3> . . . . . </h3> </div>
+	<div class="col-md-12 center_text">
+		<p>I did my first degree in biotechnology and I'm currently doing a second degree in computer science.
+		<br>I made this website to learn HTML and CSS. 
+		<br>Theres nothing much right now, but hopefully in the future I will be able to share with you my projects.</p>
+		<center><img src="images/about.gif" width="60" height="60" alt="Mountain View" class="img-responsive"></center>
+		<br>
+		<br>
+		</div>
+</div>
+
+
+<div class="container-fluid" id="projects"> 
+	<div class="col-md-12 center_text"><h1>My Projects</h1>
+	<h3> . . . . . </h3>
+	<h4>Coming soon</h4>
+	<br>
+	</div>
+
 	<div class="col-md-3">
-	<h2>Sample Project</h2>
-		<p>This is my cool project man. Hire me please.</p>
-		<img src="an.jpg" alt="Mountain View" class="img-responsive">	
+		<img src="images/img1.jpg" alt="Mountain View" class="img-responsive">	
 	</div>
 	<div class="col-md-3">
-	<h2>Sample Project</h2>
-		<p>This is my cool project man. Hire me please.</p>
-		<img src="an.jpg" alt="Mountain View" class="img-responsive">	
+		<img src="images/img2.jpg" alt="Mountain View" class="img-responsive">	
 	</div>
 	<div class="col-md-3">
-	<h2>Sample Project</h2>
-		<p>This is my cool project man. Hire me please.</p>
-		<img src="an.jpg" alt="Mountain View" class="img-responsive">	
+		<img src="images/img3.jpg" alt="Mountain View" class="img-responsive">	
 	</div>
 	<div class="col-md-3">
-	<h2>Sample Project</h2>
-		<p>This is my cool project man. Hire me please.</p>
-		<img src="an.jpg" alt="Mountain View" class="img-responsive">	
+		<img src="images/img4.jpg" alt="Mountain View" class="img-responsive">	
+		<br>
+		<br>
 	</div>
 </div>
-<div class="container-fluid"> 
 
+
+<div class="container-fluid background_one" id="contact"> 
+	<div class="col-md-12 center_text"><h1>Contact Me</h1>
+	<h3> . . . . . </h3>
+	</div>
+
+	<div class="col-md-12 center_text">
+		<h4>Have any questions?</h4>
+		</div>
+		    <!-- Contact Section -->
+    <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top"><center><img src="images/mail1.gif" width="60" height="60" alt="Mountain View" class="img-responsive"></center></a>
+    <br>
+    <br>
 </div>
-<div class="container-fluid"> 
 
+<div class="container-fluid background_grey"> 
+	<br>
+	<br>
+	<br>
+		</div>
 </div>
 
 </body>
