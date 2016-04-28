@@ -21,7 +21,7 @@
 	color: white;
 }
 
-.background_style {
+#background_style {
 	background: url(images/typewriter.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
    	-moz-background-size: cover;
