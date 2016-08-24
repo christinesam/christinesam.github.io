@@ -46,11 +46,12 @@
 
 h1 {
 	font-family: 'Amatic SC', cursive;
+	font-size: 150%
 }
 h2 {
 	color: white;
 	font-family: 'Amatic SC', cursive;
-
+	font-size: 150%
 }
 h3 {
 	font-family: 'Amatica SC', cursive;
