@@ -45,11 +45,13 @@
 }
 
 h1 {
-	font-family: 'Playfair Display SC', serif;
+	font-family: 'Cormorant SC', serif;
+
 }
 h2 {
 	color: white;
-	font-family: 'Playfair Display SC', serif;
+	font-family: 'Cormorant SC', serif;
+
 }
 h3 {
 	font-family: 'Amatica SC', cursive;
