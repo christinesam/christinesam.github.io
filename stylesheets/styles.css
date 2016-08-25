@@ -83,3 +83,9 @@ p {
   padding: 200px 15px 100px;
   width: 100%;
 }
+
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
