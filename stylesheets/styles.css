@@ -25,7 +25,7 @@
 	font-size: 18pt;
 }
 
-.background_style {
+.background_image {
 	background: url(./typewriter.jpg) no-repeat center center fixed;
 	background-size: cover;
    	height: 500px;
@@ -35,12 +35,17 @@
    	-o-background-size: cover;
 }
 
-.background_one {
+.background_teal {
 	background-color: #088A85;
 	color: white;
 }
 
-.background_grey {
+.background_white {
+	background-color: white;
+	color: black;
+}
+
+.background_darkgreen {
 	background-color: #2f4a45;
 }
 
