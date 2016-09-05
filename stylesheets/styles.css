@@ -90,9 +90,3 @@ h3, h4, p {
     padding: 10px 10px 10px 10px;
     float: center;
 }
-
-/* center div */
-.center {
-    margin: auto;
-    width: 50%;
-}
