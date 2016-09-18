@@ -90,3 +90,7 @@ h3, h4, p {
     padding: 10px 10px 10px 10px;
     float: center;
 }
+
+.projectimg:hover {
+    opacity: 0.5;
+}
