@@ -27,7 +27,7 @@
 .background_image {
 	background: url(./banner4resized.png) no-repeat center center fixed;
 	height: 500px;
-	background-size: cover;
+	background-size: contain;
    	display: block;
 }
 
