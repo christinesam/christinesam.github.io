@@ -25,7 +25,7 @@
 
 /* background image (top) */
 .background_image {
-	background: url(./banner4.png) no-repeat center center fixed;
+	background: url(./banner4resized.png) no-repeat center center fixed;
 	height: 600px;
 	background-size: cover;
    	display: block;
