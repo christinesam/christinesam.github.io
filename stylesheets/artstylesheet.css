@@ -25,9 +25,12 @@
 
 /* background image (top) */
 .background_image {
-	background: url(./banner4resized.png) no-repeat center center fixed;
+	background: url(./banner4resized.png);
 	height: 500px;
 	background-size: contain;
+	background-repeat: no-repeat;  
+  	background-attachment: scroll;  
+  	background-position: 0% 0%;
    	display: block;
 }
 
