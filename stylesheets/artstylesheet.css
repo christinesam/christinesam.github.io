@@ -26,12 +26,13 @@
 /* background image (top) */
 .background_image {
 	background: url(./banner4resized.png);
-	height: 450px;
+	height: 500px;
 	background-size: contain;
 	background-repeat: no-repeat;  
   	background-attachment: scroll;  
   	background-position: 0% 0%;
    	display: block;
+	background-color: #cda4c6;
 }
 
 /* teal background */
