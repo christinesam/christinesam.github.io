@@ -30,6 +30,7 @@
 	background-size: contain;
 	background-repeat: no-repeat;  
   	background-attachment: scroll;  
+	top: -100px;
   	background-position: 0% 0%;
    	display: block;
 }
