@@ -1,0 +1,96 @@
+/* make text colour white */
+#white_font {
+	color:white;
+}
+
+/* nav bar colour */
+.nav_colour {
+	background-color: transparent;
+	color: white;
+}
+
+/* nav bar right elements */
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-family: 'Amatica SC', cursive;
+	font-size: 16pt;
+}
+
+/* nav bar left elements */
+.navbar-default .navbar-brand {
+	color: white;
+	font-family: 'Amatica SC', cursive;
+	font-size: 18pt;
+}
+
+/* background image (top) */
+.background_image {
+	background: url(./banner4.jpg) no-repeat center center fixed;
+	background-size: cover;
+   	height: 500px;
+   	display: block;
+	-webkit-background-size: cover;
+   	-moz-background-size: cover;
+   	-o-background-size: cover;
+}
+
+/* teal background */
+.background_teal {
+	background-color: #088A85;
+	color: white;
+}
+
+/* white background */
+.background_white {
+	background-color: white;
+	color: black;
+}
+
+/* dark green background */
+.background_darkgreen {
+	background-color: #2f4a45;
+}
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 40pt; 
+}
+h2 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 35pt;
+}
+h3, h4, p {
+	font-family: 'Amatica SC', cursive;
+}
+
+/* center text */
+.center_text {
+	text-align: center;
+}
+
+/* no margins */
+.no_margin {
+	margin: 0px !important;
+	border: 0px !important;
+}
+
+/* main header text alignment */
+.header_content {
+  position: relative;
+  text-align: center;
+  padding: 200px 15px 100px;
+  width: 100%;
+}
+
+/* for project section images */
+.img-responsive {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    padding: 10px 10px 10px 10px;
+    float: center;
+}
+
+.projectimg:hover {
+    opacity: 0.5;
+}
