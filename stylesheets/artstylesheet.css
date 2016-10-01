@@ -25,14 +25,13 @@
 
 /* background image (top) */
 .background_image {
-	background: url(./banner4resized.png);
-	height: auto;
-	background-size: contain;
-	background-repeat: no-repeat;  
-  	background-attachment: scroll;  
-  	background-position: 0% 0%;
-   	display: block;
+	
 	background-color: #cda4c6;
+	background: url(./banner4resized.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* teal background */
