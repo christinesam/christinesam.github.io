@@ -5,20 +5,20 @@
 
 /* nav bar colour */
 .nav_colour {
-	background-color: transparent;
+	background-color: white;
 	color: white;
 }
 
 /* nav bar right elements */
 .navbar-default .navbar-nav>li>a {
-	color: white;
+	color: #cda4c6;
 	font-family: 'Amatica SC', cursive;
 	font-size: 16pt;
 }
 
 /* nav bar left elements */
 .navbar-default .navbar-brand {
-	color: white;
+	color: #cda4c6;
 	font-family: 'Amatica SC', cursive;
 	font-size: 18pt;
 }
