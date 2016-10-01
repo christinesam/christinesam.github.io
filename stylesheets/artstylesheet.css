@@ -28,6 +28,7 @@
 	background: url(./banner4.png) no-repeat center center fixed;
 	background-size: cover;
    	height: 500px;
+	background-size: 1240px 400px;
    	display: block;
 	-webkit-background-size: cover;
    	-moz-background-size: cover;
