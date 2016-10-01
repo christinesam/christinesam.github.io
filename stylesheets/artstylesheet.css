@@ -28,8 +28,8 @@
 	background: url(./banner4.png) no-repeat center center fixed;
 	background-size: cover;
    	height: 500px;
-	background-size: 1500px 600px;
-	top: -100;
+	background-size: 1500px 500px;
+	top: -100px;
    	display: block;
 
 }
