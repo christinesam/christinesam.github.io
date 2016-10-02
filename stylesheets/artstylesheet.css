@@ -26,9 +26,18 @@
 /* background image (top) */
 .background_image {
 	
-	background-color: #cda4c6;
-	background: url(./banner6.png) no-repeat center center fixed; 
-	background-size: 100%;
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 /* teal background */
