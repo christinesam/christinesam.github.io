@@ -3,18 +3,26 @@
 <head>
 	<title>My portfolio</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
 	<!-- THE FOLLOWING LINK REFERENCES A STYLESHEET FROM A FOLDER THAT THIS CURRENT HTML FILE IS IN -->
 	<link rel="stylesheet" href="stylesheets/styles.css">
 	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Amatica+SC" rel="stylesheet">
 	
 	<!-- Javascript for navbar -->
 	<script>
     	$(document).ready(function(){
       		$(window).scroll(function() { // check if scroll event happened
-        		if ($(document).scrollTop() > 300) { // check if user scrolled more than 50 from top of the browser window
-          			$(".nav_colour").css("background-color", "#2f4a45"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
+        		if ($(document).scrollTop() > 650) { // check if user scrolled more than x from top of the browser window
+          			$(".nav_colour").css("background-color", "#655379"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
         		} else {
           			$(".nav_colour").css("background-color", "transparent"); // if not, change it back to transparent
         		}
@@ -24,6 +32,8 @@
 </head>
 
 <body>
+
+<!-- Navigation -->
 
 <nav class="navbar navbar-default navbar-fixed-top nav_colour no_margin">
   <div class="container-fluid">
@@ -42,13 +52,13 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">ABOUT</a>
+                        <a class="page-scroll" href="#aboutsection">ABOUT</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#projects">PROJECTS</a>
+                        <a class="page-scroll" href="#projectsection">PROJECTS</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">CONTACT ME</a>
+                        <a class="page-scroll" href="#contactsection">CONTACT ME</a>
                     </li>
                 </ul>
 
@@ -56,82 +66,80 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+<!-- Header -->
+<header>
 <div class="container-fluid background_image" id="top"> 
-	<div class="col-md-4"></div>
-	<div class="col-md-4 header_content">
-	<h1 id="white_font">Hi, my name is Christine.</h1>
-	<h2> . . . . . </h2>
-	<br>
-	<h3>Welcome to my webpage.</h3></div>
-	<div class="col-md-4"></div>
+	<div class="intro">
+                <div class="subheading">My name is Christine</div>
+                <div class="heading">It's Nice To Meet You</div>
+    </div>
 </div>
+</header>
 
 
-<div class="container-fluid background_teal" id="about"> 
-	<div class="col-md-12 center_text"><h2>About Me</h2>
-	<h3> . . . . . </h3> </div>
+<!-- About Me Section -->
+<section id="aboutsection" class="background_purple">
+<div class="container-fluid" id="about"> 
+	<div class="col-md-12 center_text"><h2>ABOUT ME</h2>
+    <img src="images/user.png" height="42" width="42"></img>
+	</div>
 	<br>
 	<div class="col-md-12 center_text">
+    <br>
 		<p>I completed my first degree in biotechnology and I'm currently pursuing a second degree in computer science.
 		<br>I made this website to learn HTML and CSS. 
 		<br>Theres nothing much right now, but hopefully in the future I will be able to share my projects with you.</p>
-		<center><img src="images/about.gif" width="60" height="60" alt="Mountain View" class="img-responsive"></center>
 		<br>
 		<br>
 	</div>
 </div>
+</section>
 
 
-<div class="container-fluid background_white" id="projects"> 
-	<div class="col-md-12 center_text"><h2>My Projects</h2>
-	<h3> . . . . . </h3>
-	<br>
-	
-	<h4>More projects coming soon</h4>
-	<br>
+
+<!-- Projects Section -->
+<section id="projectsection" class="background_white">
+<div class="container-fluid" id="projects"> 
+	<div class="col-md-12 center_text"><h2 style="padding-bottom: 50px;">MY PROJECTS</h2>
+	<div class="col-md-2 center_text"></div>
+    <div class="col-md-4 center_text">
+    <img src="images/smartphone.png" height="42" width="42"></img>
+    <h4>Starry Starry Night</h4>
+    </div>
+    <div class="col-md-4 center_text">
+    <img src="images/placeholder.png" height="42" width="42"></img>
+    <h4>Mind the Gap</h4>
+    </div>
+    <div class="col-md-2 center_text"></div>
 	</div>
-	
-	<div class="col-md-3 center">
-		<a href="marioshooter.html">
-		<img src="images/project1.png" alt="Mountain View" class="img-responsive projectimg">
-		</a>
-	</div>
-	<div class="col-md-3">
-		<a href="art.html">
-		<img src="images/img2.jpg" alt="Mountain View" class="img-responsive projectimg">
-		</a>
-	</div>
-	<div class="col-md-3">
-		<img src="images/img3.jpg" alt="Mountain View" class="img-responsive projectimg">	
-	</div>
-	<div class="col-md-3">
-		<img src="images/img4.jpg" alt="Mountain View" class="img-responsive projectimg">	
-		<br>
-		<br>
-	</div> 
-	<br>
-	<br>
+
 </div>
+</section>
 
+<!-- Contact Section -->
+<section id="contactsection" class="background_darkpurple">
+<div class="container-fluid" id="contact"> 
+    <div class="col-md-12 center_text"><h2>CONTACT ME</h2>
+    <br>
+    <a href="https://www.instagram.com/keurisutine/"><img src="images/instagram2.png" height="42" width="42"></img></a>
+    &#160;
+    &#160;
+    <a href="https://www.instagram.com/keurisutine/"><img src="images/linkedin2.png" height="42" width="42"></img></a>
+    </div>
 
-<div class="container-fluid background_teal" id="contact"> 
-	<div class="col-md-12 center_text"><h2>Contact Me</h2>
-	<h3> . . . . . </h3>
-	</div>
-
-	<div class="col-md-12 center_text">
-		<h4>Have any questions?</h4>
-	</div>
-		    <!-- Contact Section -->
-    	<a href="mailto:xtin3__@hotmail.com?Subject=Hello%20again" target="_top"><center><img src="images/mail1.gif" width="60" height="60" alt="Mountain View" class="img-responsive"></center></a>
-	<br>
-	<br>
 </div>
+</section>
 
-<div class="container-fluid background_darkgreen"> 
-	<br>
-	<br>
-	<br>
-</div>
+<!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <span class="copyright">Copyright &copy; CSAM 2017</span>
+                </div>
+
+            </div>
+        </div>
+    </footer>
 
 </body>
