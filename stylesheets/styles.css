@@ -111,7 +111,12 @@ section {
 }
 
 
-
+.social.img {
+	opacity: 50%;
+}
+.social.img:hover {
+	opacity: 100%;
+}
 
 footer {
   padding: 25px 0;
