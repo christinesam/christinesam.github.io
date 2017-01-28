@@ -24,6 +24,14 @@ a:hover
   color: #fec503;
 }
 
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1;
+}
+
 .nav_colour {
 	background-color: transparent;
 	color: white;
