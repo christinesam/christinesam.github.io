@@ -112,10 +112,10 @@ section {
 
 
 .social.img {
-	opacity: 50%;
+	opacity: 0.5;
 }
 .social.img:hover {
-	opacity: 100%;
+	opacity: 1;
 }
 
 footer {
