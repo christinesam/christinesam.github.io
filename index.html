@@ -1,145 +1,319 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<head>
-	<title>My portfolio</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <head>
 
-	<!-- THE FOLLOWING LINK REFERENCES A STYLESHEET FROM A FOLDER THAT THIS CURRENT HTML FILE IS IN -->
-	<link rel="stylesheet" href="stylesheets/styles.css">
-	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Amatica+SC" rel="stylesheet">
-	
-	<!-- Javascript for navbar -->
-	<script>
-    	$(document).ready(function(){
-      		$(window).scroll(function() { // check if scroll event happened
-        		if ($(document).scrollTop() > 650) { // check if user scrolled more than x from top of the browser window
-          			$(".nav_colour").css("background-color", "#655379"); // if yes, then change the color of class "navbar-fixed-top" to white (#f8f8f8)
-        		} else {
-          			$(".nav_colour").css("background-color", "transparent"); // if not, change it back to transparent
-        		}
-      		});
-    	});
-	</script>
-</head>
+    <title>Christine Sam</title>
 
-<body>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Navigation -->
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-<nav class="navbar navbar-default navbar-fixed-top nav_colour no_margin">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+    <!-- Custom styles for this template -->
+    <link href="css/resume.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-none d-lg-block">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand page-scroll" href="#top">WELCOME</a>
-    </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Volunteer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#aboutsection">ABOUT</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#projectsection">PROJECTS</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contactsection">SOCIAL</a>
-                    </li>
-                </ul>
+    <div class="container-fluid p-0">
 
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-<!-- Header -->
-<header>
-<div class="container-fluid background_image" id="top"> 
-	<div class="intro">
-                <div class="subheading">It's Nice To Meet You</div>
-                <div class="heading">My name is Christine</div>
-    </div>
-</div>
-</header>
-
-
-<!-- About Me Section -->
-<section id="aboutsection" class="background_purple">
-<div class="container-fluid" id="about"> 
-	<div class="col-md-12 center_text"><h2>ABOUT ME</h2>
-    <img src="images/user.png" height="42" width="42"></img>
-	</div>
-	<br>
-	<div class="col-md-3 center_text"></div>
-	<div class="col-md-6 center_text">
-        <br>
-    	<p>After completing my bachelors degree in biotechnology, I realized I was just not passionate enough about life sciences. I decided to do another bachelors degree in computer science based on my love for problem solving and designing. I'm currently a 4th year student of a second degree program in computer science. I enjoy the challenge of writing code to solve challenging problems. I also love to draw and make crafts in my spare time.</p>
-	</div>
-	<div class="col-md-3 center_text"></div>
-</div>
-</section>
-
-
-
-<!-- Projects Section -->
-<section id="projectsection" class="background_white">
-<div class="container-fluid" id="projects"> 
-	<div class="col-md-12 center_text"><h2 style="padding-bottom: 50px;">MY PROJECTS</h2>
-	<div class="col-md-2 center_text"></div>
-    <div class="col-md-4 center_text">
-    <img src="images/smartphone.png" height="42" width="42"></img>
-    <h4>Starry Starry Night</h4>
-    <p> Starry Starry Night is a simple 2D Android game built using Unity's game development platform. Using the phones built in accelerometer, the player must move their boat to catch all the falling stars. </p>
-    </div>
-    <div class="col-md-4 center_text">
-    <img src="images/placeholder.png" height="42" width="42"></img>
-    <h4>Mind the Gap</h4>
-    <p>Mind the gap is an Android Application that maps the locations of stop and tube lines on the London Underground transit system. It also parses JSON files to retrieve real time arrival information of stops. </p>
-    </div>
-    <div class="col-md-2 center_text"></div>
-	</div>
-
-</div>
-</section>
-
-<!-- Contact Section -->
-<section id="contactsection" class="background_darkpurple">
-<div class="container-fluid" id="contact"> 
-    <div class="col-md-12 center_text"><h2>SOCIAL</h2>
-    <br>
-    <a href="https://www.instagram.com/keurisutine/"><img src="images/instagram2.png" height="42" width="42"></img></a>
-    &#160;
-    &#160;
-    <a href="https://www.linkedin.com/in/christine-sam-2073617b"><img src="images/linkedin2.png" height="42" width="42"></img></a>
-    </div>
-
-</div>
-</section>
-
-<!-- Footer -->
-    <footer class="background_purple">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <span class="copyright">Copyright &copy; CSAM 2017</span>
-                </div>
-
-            </div>
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <h1 class="mb-0">Christine
+            <span class="text-primary">Sam</span>
+          </h1>
+          <div class="subheading mb-5">Vancouver BC
+          </div>
+          <p class="mb-5">I'm currently a 4th year student of a second degree program in computer science. I'm passionate in the area data mining and machine learning.</p>
+          <ul class="list-inline list-social-icons mb-0">
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/christine-sam-2073617b/">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/christinesam">
+                <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
         </div>
-    </footer>
+      </section>
 
-</body>
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">PC Software Engineer (Co-op)</h3>
+              <div class="subheading mb-3">Delta-Q Technologies</div>
+              <ul class="fa-ul mb-0">
+                <li>
+                  <i class="fa-li fa fa-chevron-right"></i>
+                  Implemented improvements to a web-based recommendation engine</li>
+                  <li>
+                    <i class="fa-li fa fa-chevron-right"></i>
+                    Performed feature improvements and bug fixes on existing PC applications</li>
+                    <li>
+                      <i class="fa-li fa fa-chevron-right"></i>
+                      Participated in code reviews and documented software changes</li>
+                      <li>
+                        <i class="fa-li fa fa-chevron-right"></i>
+                        Worked as part of an agile development team of 15 members</li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2017 - August 2017</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Website and Bioinformatics  Assistant (Co-op)</h3>
+              <div class="subheading mb-3">Kinexus Bioinformatics</div>
+              <ul class="fa-ul mb-0">
+                <li>
+                  <i class="fa-li fa fa-chevron-right"></i>
+                  Added new functionality to existing webpages of the company websites</li>
+                  <li>
+                    <i class="fa-li fa fa-chevron-right"></i>
+                    Updated SQL databases to include new product information</li>
+                    <li>
+                      <i class="fa-li fa fa-chevron-right"></i>
+                      Used in silico analysis techniques to study changes in kinase-substrate specificities due to
+common cancer mutations</li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2016 - December 2016</span>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+        <div class="my-auto">
+          <h2 class="mb-5">Education</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">University of British Columbia</h3>
+              <div class="subheading mb-3">Bachelor of Computer Science</div>
+              <ul class="fa-ul mb-0">
+                <li>
+                  <i class="fa-li fa fa-chevron-right"></i>
+                  Science Scholar 2015 - 2016</li>
+                  <li>
+                    <i class="fa-li fa fa-chevron-right"></i>
+                    Dean's Honour List 2015 - 2016</li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2015 - May 2018</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">University of British Columbia</h3>
+              <div class="subheading mb-3">Bachelor of Science, Honours in Biotechnology</div>
+              <ul class="fa-ul mb-0">
+                <li>
+                  <i class="fa-li fa fa-chevron-right"></i>
+                  UBC President's Entrance Scholarship</li>
+                  <li>
+                    <i class="fa-li fa fa-chevron-right"></i>
+                    Dean's Honour List 2013 - 2014</li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2010 - May 2015</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
+        <div class="my-auto">
+          <h2 class="mb-5">Skills</h2>
+
+          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-java"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon devicon-csharp-line"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon devicon-c-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon devicon-cplusplus-line"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-html5"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-css3"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-javascript"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-php"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-bootstrap"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-python"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-git"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-mysql"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicon devicon-android-plain"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-visualstudio"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-intellij"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-photoshop"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-illustrator"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-atom"></i>
+            </li>
+          </ul>
+
+          <div class="subheading mb-3">Workflow</div>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-chevron-right"></i>
+              Agile Development &amp; Scrum</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Volunteer Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Small Animal Wellness Volunteer</h3>
+              <div class="subheading mb-3">BC SPCA</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">May 2015 - September 2015</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Gift Wrap Volunteer</h3>
+              <div class="subheading mb-3">Canadian Mental Health Association</div>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">December 2011 - December 2014</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+        <div class="my-auto">
+          <h2 class="mb-5">Awards &amp; Certifications</h2>
+          <ul class="fa-ul mb-0">
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Governor General's Bronze Academic Award - 2010</li>
+              <li>
+                <i class="fa-li fa fa-trophy text-warning"></i>
+                Windermere Secondary School: Top Scholar - 2010</li>
+          </ul>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/resume.min.js"></script>
+
+  </body>
+
+</html>

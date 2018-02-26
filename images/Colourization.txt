@@ -1,5 +1,0 @@
-Colourization
-
-Hue: 288
-Saturation: 14
-Lightness: -37
